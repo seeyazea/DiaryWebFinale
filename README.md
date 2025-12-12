@@ -31,17 +31,14 @@ significant modifications and extensions made as part of an academic project.
   - Settings Dark Mode  
   ![darkmode](docs/screenshots/darkmode.png)
 
-- Delete  
-  ![delete](docs/screenshots/delete.png)
-
 - Profile  
   ![profile](docs/screenshots/profile.png)
 
 - Profile  change
-  ![profile change](docs/screenshots/profilechange.png)
+  ![profile change](docs/screenshots/profile change.png)
 
 - Register
-  ![registr](docs/screenshots/registr.png)
+  ![registr](docs/screenshots/register.png)
 
 - Settings
   ![settings](docs/screenshots/settings.png)
