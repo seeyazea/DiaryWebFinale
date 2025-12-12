@@ -17,7 +17,7 @@ significant modifications and extensions made as part of an academic project.
   ![login](docs/screenshots/login.png)
 
 - Diary List (Pagination)  
-  ![list](docs/screenshots/list.png)
+  ![list](screenshots/list.png)
 
 - Write   
   ![write](docs/screenshots/newentry.png)
