@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* -------- TRASH PAGE STYLE -------- */
+/* -------- Trash (휴지통) Page Style -------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f6fa;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+/* Page title */
+.page-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Empty box */
+.empty-box {
+    padding: 45px;
+    background: white;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Deleted diary cards */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    transition: transform .15s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Title */
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Date */
+.card-date {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #777;
+}
+
+/* Buttons area */
+.btn-area {
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+/* Restore button */
+.btn-restore {
+    background: #4c6ef5;
+    color: white;
+}
+
+.btn-restore:hover {
+    background: #3b5bdb;
+}
+
+/* Delete forever button */
+.btn-delete {
+    background: #ff6b6b;
+    color: white;
+}
+
+.btn-delete:hover {
+    background: #fa5252;
+}
+/* Back Button (뒤로가기) */
+.btn-back {
+    display: inline-block;
+    margin-bottom: 18px;
+    padding: 10px 16px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #4C7CF5;
+
+    background: #eef3ff;
+    border-radius: 10px;
+
+    text-decoration: none;
+    text-align: center;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: 0.2s ease;
+}
+
+.btn-back:hover {
+    background: #dbe4ff;
+    transform: translateY(-2px);
+}
+

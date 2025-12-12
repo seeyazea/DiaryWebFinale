@@ -1,0 +1,111 @@
+@charset "UTF-8";
+    body {
+        margin:0; padding:0;
+        background:#f5f7fa;
+        font-family:"Segoe UI", Arial, sans-serif;
+    }
+
+    /* TOPBAR */
+    .topbar {
+        height:56px;
+        display:flex;
+        align-items:center;
+        gap:12px;
+        padding:0 24px;
+        background:#ffffff;
+        box-shadow:0 1px 4px rgba(0,0,0,0.06);
+        position:sticky;
+        top:0;
+        z-index:800;
+    }
+    .menu-btn {
+        width:34px;
+        height:34px;
+        border-radius:8px;
+        border:none;
+        background:#f1f1f1;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        cursor:pointer;
+        font-size:20px;
+    }
+
+    /* PROFILE CARD */
+    .container {
+        max-width:800px;
+        margin:40px auto;
+        background:white;
+        padding:40px;
+        border-radius:20px;
+        box-shadow:0 6px 18px rgba(0,0,0,0.1);
+        animation:fadeIn .4s ease;
+    }
+
+    @keyframes fadeIn {
+        from {opacity:0; transform:translateY(10px);}
+        to {opacity:1; transform:translateY(0);}
+    }
+
+    .avatar {
+        width:110px;
+        height:110px;
+        background:linear-gradient(135deg,#6C8CFF,#4C7CF5);
+        color:white;
+        border-radius:50%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:45px;
+        font-weight:700;
+        margin:0 auto 20px;
+    }
+
+    .username {
+        text-align:center;
+        font-size:26px;
+        font-weight:700;
+    }
+
+    .email {
+        text-align:center;
+        font-size:15px;
+        color:#777;
+        margin-bottom:30px;
+    }
+
+    .section-title {
+        font-size:19px;
+        font-weight:600;
+        margin-top:20px;
+        margin-bottom:10px;
+    }
+
+    .input {
+        width:100%;
+        padding:12px;
+        border:1px solid #ccc;
+        border-radius:12px;
+        margin-bottom:15px;
+    }
+
+    .btn-save {
+        background:#4C7CF5;
+        color:white;
+        padding:12px 22px;
+        border-radius:12px;
+        border:none;
+        cursor:pointer;
+        width:100%;
+        font-size:16px;
+    }
+
+    .btn-back {
+        display:block;
+        margin-top:20px;
+        text-align:center;
+        padding:10px;
+        color:#4C7CF5;
+        font-weight:600;
+        text-decoration:none;
+    }

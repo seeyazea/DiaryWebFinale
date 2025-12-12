@@ -1,0 +1,43 @@
+@charset "UTF-8";
+ body {
+            font-family: Arial, sans-serif;
+            background: #f6f7fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: white;
+            width: 360px;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        .link {
+            text-align: center;
+            margin-top: 15px;
+        }

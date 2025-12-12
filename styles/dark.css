@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body.dark {
+    background: #1d1f21;
+    color: #f0f0f0;
+}
+
+/* sidebar */
+body.dark .sidebar {
+    background: #111;
+    color: white;
+}
+
+/* cards, container, topbar */
+body.dark .container,
+body.dark .card,
+body.dark .topbar {
+    background-color: #2b2d2f !important;
+}
+
+/* текст */
+body.dark .label,
+body.dark .card-title,
+body.dark .card-sub,
+body.dark .topbar-title,
+body.dark .username,
+body.dark .email {
+    color: #f0f0f0 !important;
+}

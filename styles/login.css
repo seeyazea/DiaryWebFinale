@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body {
+            font-family: Arial;
+            background: #f5f6fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background: white;
+            width: 350px;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2 { text-align: center; margin-bottom: 20px; }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: rgb(124, 186, 216);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .link { text-align: center; margin-top: 17px; }
+        .error { color: red; text-align: center; }
+        .success { color: green; text-align: center; }
